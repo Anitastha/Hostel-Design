@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_alignParentTop="true"
+    tools:context=".DashboardActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="390dp"
+        android:src="@drawable/img"
+        android:scaleType="fitXY"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NEWS"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:layout_marginTop="40dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:textSize="34dp"
+        android:textAlignment="center"
+        android:layout_marginTop="210dp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif"
+        android:text="Landlubbers complain about useless stuff"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NEWS"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:layout_marginTop="40dp"/>
+    <TextView
+        android:id="@+id/stuff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:textSize="34dp"
+        android:textAlignment="center"
+        android:layout_marginTop="210dp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif"
+        android:text="Landlubbers complain about useless stuff"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="320dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jan 3, 2015 8:49 pm"
+            android:textColor="#fff"
+            android:drawableLeft="@drawable/ic_time"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="17"
+            android:textColor="#fff"
+            android:drawableLeft="@drawable/ic_chat"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="32"
+            android:textColor="#fff"
+            android:drawableLeft="@drawable/ic_mail"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="390dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/ic_hostel_foreground" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:text="Drunken parrot charged with flying while under influence"
+                        android:textColor="#0C0C0C"
+                        android:textSize="16dp"
+                        android:textStyle="bold" />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="17"
+                            android:textSize="18dp"
+                            android:textColor="#9E9797"
+                            android:drawableLeft="@drawable/ic_chat"/>\
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="32"
+                            android:layout_marginLeft="20dp"
+                            android:textSize="18dp"
+                            android:textColor="#AAA4A4"
+                            android:drawableLeft="@drawable/ic_mail"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#f1f1f1" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:orientation="horizontal">
+
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/ic_hostel_foreground" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:text="Search for the foundation of Youth while on holiday"
+                        android:textColor="#0C0C0C"
+                        android:textSize="16dp"
+                        android:textStyle="bold" />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:drawableLeft="@drawable/ic_chat"
+                            android:text="25"
+                            android:textColor="#9E9797"
+                            android:textSize="18dp" />\
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="7"
+                            android:layout_marginLeft="30dp"
+                            android:textSize="18dp"
+                            android:textColor="#AAA4A4"
+                            android:drawableLeft="@drawable/ic_mail"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#f1f1f1" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>
